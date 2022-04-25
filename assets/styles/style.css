@@ -31,6 +31,7 @@ button {
 
 .logo {
     font-family: Updock;
+    font-size: 1.5rem;
 }
 
 .nav_links li {
@@ -64,4 +65,3 @@ button:hover {
 a.logo {
     text-transform: capitalize;
 }
-
