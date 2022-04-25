@@ -1,0 +1,67 @@
+:root {
+    --bg-b-color: #262626;
+    --bg-w-color: #eef2f4;
+    --hover-color: #ecea1c;
+    --font-size: 24px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    background-color: var(--bg-b-color);
+}
+
+li,
+a,
+button {
+    background-color: var(--bg-b-color);
+    color: var(--bg-w-color);
+    text-transform: uppercase;
+}
+
+.logo {
+    font-family: Updock;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav_links li a:hover {
+    color: var(--hover-color);
+    text-shadow: var(--hover-color) 1px 10px 10px;
+
+}
+
+button {
+    padding: 10px 25px;
+    border: 2px solid var(--bg-w-color);
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+button:hover {
+    color: var(--hover-color);
+    border: 2px solid var(--hover-color);
+    box-shadow: var(--hover-color) 0px 10px 10px;
+}
+
+a.logo {
+    text-transform: capitalize;
+}
+
