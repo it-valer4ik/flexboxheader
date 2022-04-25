@@ -15,9 +15,10 @@
 
 header {
     display: flex;
-    justify-content: space-between;
+    flex-flow: row nowrap;
+    justify-content: space-between;  
     align-items: center;
-    padding: 25px 10%;
+    padding: 10px 3%;
     background-color: var(--bg-b-color);
 }
 
@@ -31,7 +32,8 @@ button {
 
 .logo {
     font-family: Updock;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-transform: capitalize;
 }
 
 .nav_links li {
@@ -46,7 +48,6 @@ button {
 .nav_links li a:hover {
     color: var(--hover-color);
     text-shadow: var(--hover-color) 1px 10px 10px;
-
 }
 
 button {
@@ -60,8 +61,4 @@ button:hover {
     color: var(--hover-color);
     border: 2px solid var(--hover-color);
     box-shadow: var(--hover-color) 0px 10px 10px;
-}
-
-a.logo {
-    text-transform: capitalize;
 }
